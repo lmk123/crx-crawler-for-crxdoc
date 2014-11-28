@@ -13,6 +13,10 @@
 
 完成之后（我花了大约7分钟），代码库下会多出一个`chrome`文件夹，此时你就可以在浏览器中输入`http://localhost:12345/extensions/`来阅读文档了。
 
+### 将它用于其它网站
+
+见 [crawler.js](https://github.com/lmk123/crx-crawler-for-crxdoc/blob/master/crx/crawler.js#L211)
+
 ### 工作原理
 
 传统的爬虫是基于对 html 字符串进行正则表达式解析来获取页面上的资源的，而书虫则是利用了浏览器里面的`XMLHttpRequest`对象能设定`responseType`来工作的：
