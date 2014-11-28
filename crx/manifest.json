@@ -1,12 +1,12 @@
 {
-  "name" : "小爬虫" ,
+  "name" : "书虫" ,
   "version" : "1.0" ,
   "manifest_version" : 2 ,
-  "description" : "一个专门用来爬取墙外的 Chrome 非官方中文文档（https://crxdoc-zh.appspot.com/extensions/index）的爬虫" ,
+  "description" : "一个专门用来爬取墙外的 Chrome 非官方中文文档（https://crxdoc-zh.appspot.com/）的爬虫" ,
   "permissions" : ["*://*/*"] ,
   "background" : {
     "scripts" : ["crawler.js"] ,
     "persistent" : false
   } ,
-  "homepage_url" : " http://www.lmk123.com/"
+  "homepage_url" : "https://github.com/lmk123/crx-crawler-for-crxdoc"
 }
