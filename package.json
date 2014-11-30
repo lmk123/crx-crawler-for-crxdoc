@@ -5,5 +5,16 @@
     "express" : "*" ,
     "multer" : "*" ,
     "mkdirp" : "*"
+  } ,
+  "devDependencies" : {
+    "memcached" : "*" ,
+    "grunt" : "*" ,
+    "grunt-contrib-uglify" : "*" ,
+    "grunt-contrib-cssmin" : "*" ,
+    "grunt-contrib-imagemin" : "*" ,
+    "grunt-contrib-htmlmin" : "*" ,
+    "grunt-contrib-requirejs" : "*" ,
+    "grunt-contrib-copy" : "*" ,
+    "grunt-contrib-clean" : "*"
   }
 }

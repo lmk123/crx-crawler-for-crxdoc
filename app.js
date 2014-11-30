@@ -12,6 +12,9 @@ app
         } );
         res.status( 204 ).end();
     } )
+    .use( express.static( 'build' , {
+        extensions : [ 'html' ]
+    } ) )
     .use( express.static( prefix , {
         extensions : [ 'html' ]
     } ) )
